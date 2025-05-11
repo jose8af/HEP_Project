@@ -80,7 +80,7 @@
 
 \ExecuteOptions{twosidecrop,crop,centre,info,croppage}
 \ProcessOptions
-\LoadClass[twoside,fleqn]{article}
+\LoadClass[oneside,fleqn]{article}
 
 %% General Packages Used
 \RequirePackage{url}
