@@ -1,0 +1,84 @@
+
+<HTML> 
+<HEAD> 
+    <META HTTP-EQUIV="Refresh" CONTENT="10"> 
+    <META HTTP-EQUIV="EXPIRES" CONTENT="20" > 
+    <TITLE>Online Event Generation</TITLE>
+    <link rel=stylesheet href="./HTML/mgstyle.css" type="text/css">
+</HEAD>
+<BODY>
+<script type="text/javascript">
+function UrlExists(url) {
+  var http = new XMLHttpRequest();
+  http.open('HEAD', url, false);
+  try{
+     http.send()
+     }
+  catch(err){
+   return 1==2;
+  }
+  return http.status!=404;
+}
+</script>    
+    <H2 align=center> Results in the sm for p p > l+ l-
+ </H2> 
+    <HR>
+    
+<H2 ALIGN=CENTER> Currently Running </H2>
+<TABLE BORDER=2 ALIGN=CENTER>
+    <TR ALIGN=CENTER>
+        <TH nowrap ROWSPAN=2 font color="#0000FF"> Run Name </TH>
+        <TH nowrap ROWSPAN=2 font color="#0000FF"> Tag Name </TH>
+        <TH nowrap ROWSPAN=2 font color="#0000FF"> Cards </TH>   
+        <TH nowrap ROWSPAN=2 font color="#0000FF"> Results </TH> 
+        <TH nowrap ROWSPAN=1 COLSPAN=3 font color="#0000FF"> Status/Jobs </TH>
+    </TR>
+        <TR> 
+            <TH>   Queued </TH>
+            <TH>  Running </TH>
+            <TH> Done  </TH>
+        </TR>
+    <TR ALIGN=CENTER> 
+        <TD nowrap ROWSPAN=2> run_01 </TD>
+        <TD nowrap ROWSPAN=2> tag_1 </TD>
+        <TD nowrap ROWSPAN=2> <a href="./Cards/param_card.dat">param_card</a><BR>
+                    <a href="./Cards/run_card.dat">run_card</a><BR>
+                    
+                    
+                    
+                    
+                    
+                    
+        </TD>
+        <TD nowrap ROWSPAN=2> <A HREF="./HTML/run_01/results.html">1689 <font face=symbol>&#177;</font> 3.705 (pb)</A> </TD> 
+        <td ROWSPAN=2 colspan=4>Combining Events</td>
+ </TR>
+ <TR></TR>
+   
+ </TABLE>
+
+    <br>
+    <br>
+    <H2 align="center"> Available Results </H2>
+        <TABLE BORDER=2 align="center">  
+            <TR align="center">
+                <TH>Run</TH> 
+                <TH>Collider</TH> 
+                <TH> Banner </TH>
+                <TH> Cross section (pb) </TH> 
+                <TH> Events  </TH>
+                <TH> Data </TH>  
+                <TH>Output</TH>
+                <TH>Action</TH> 
+            </TR>      
+            
+        <tr>
+        <td rowspan=0>run_01</td> 
+        <td rowspan=0><center>  p  p <br> 6500.0 x 6500.0  GeV </center></td>
+        
+        </tr>
+        
+        </TABLE>
+    <H3 align=center><A HREF="./index.html"> Main Page </A></H3>
+</BODY> 
+</HTML> 
